@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Site Title</title>
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+        main {
+            padding: 50px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+    <main>
+        <p>Hello, this is my first live website on GitHub Pages 😄</p>
+        <p>Enjoy exploring!</p>
+    </main>
+    <footer>
+        &copy; 2025 My Website
+    </footer>
 </body>
 </html>
+
 
 
