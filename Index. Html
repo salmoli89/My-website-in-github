@@ -1,36 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heer's Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #fce4ec;
-            color: #333;
-            padding: 50px;
-        }
-        h1 {
-            color: #e91e63;
-        }
-        p {
-            font-size: 1.2rem;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salmoli Kangsabanik Portfolio</title>
+<style>
+/* Reset & base styles */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family:'Poppins',sans-serif; background:#1a1a1a; color:#f5f5f5; scroll-behavior:smooth;}
+a {text-decoration:none; color:#4CAF50;}
+button {cursor:pointer; padding:10px 20px; border:none; border-radius:5px; background:#4CAF50; color:#fff; transition:0.3s;}
+button:hover {background:#45a049;}
+section {padding:100px 20px 50px 20px; min-height:100vh;}
+header {position:fixed; top:0; width:100%; background:rgba(0,0,0,0.7); display:flex; justify-content:space-between; align-items:center; padding:15px 30px; z-index:1000;}
+header h1 {color:#fff; font-size:1.8rem;}
+nav a {margin-left:20px; font-weight:bold; color:#fff;}
+@media(max-width:768px){nav a{display:block;margin:10px 0;}}
+
+/* Home */
+#home {display:flex; flex-direction:column; justify-content:center; align-items:center; background:#111; background-size:cover; background-position:center; min-height:100vh;}
+#home img {max-width:100%; height:auto;}
+.social-icons img{width:35px; margin:0 10px;}
+
+/* About */
+#about {background:#222;}
+#about h2 {color:#4CAF50; margin-bottom:15px;}
+#about p {margin-bottom:10px;}
+
+/* Skills */
+#skills {background:#1a1a1a;}
+.skill-item {margin-bottom:10px;}
+
+/* Achievements */
+#achievements {background:#222;}
+.achievement-item {margin-bottom:10px;}
+
+/* Experience */
+#experience {background:#1a1a1a;}
+.exp-item {margin-bottom:10px;}
+
+/* Resume */
+#resume {background:#222;}
+.resume-content {display:flex; flex-direction:column; gap:10px;}
+
+/* Contact */
+#contact {background:#1a1a1a;}
+.contact-item {margin-bottom:15px;}
+.contact-icons img {width:30px; margin-right:10px; vertical-align:middle;}
+
+/* Certificates */
+#certificates {background:#222;}
+#cert-login {margin-bottom:20px;}
+#cert-list {display:none; margin-top:20px;}
+.cert-item {background:#333; padding:10px; margin-bottom:10px; border-radius:5px;}
+
+/* Footer */
+footer {text-align:center; padding:20px; background:#111; color:#fff;}
+</style>
 </head>
 <body>
-    <h1>Welcome to Heer's Profile! 😘</h1>
-    <p>Hello! This is my first live website on GitHub Pages.</p>
-    <p>Check out my <a href="https://github.com/salmoli89">GitHub Profile</a>!</p>
-</body>
-</html>
+
+<header>
+<h1>Salmoli Kangsabanik</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#achievements">Achievements</a>
+<a href="#experience">Experience</a>
+<a href="#resume">Resume</a>
+<a href="#certificates">Certificates</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- Home -->
+<section id="home">
+<img src="your-home-design.jpg" alt="Home Design Placeholder">
+<div class="social-icons">
+<a href="mailto:Srinjankangsabanik@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+<a href="https://wa.me/919064024142" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp"></a>
+<a href="https://www.linkedin.com/in/salmoli-kangsabanik-06289b334/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+</div>
+</section>
+
+<!-- About -->
+<section id="about">
+<h2>About Me</h2>
+<p>Name: Salmoli Kangsabanik</p>
+<p>Education: B.Tech Biotechnology, Institute of Engineering and Management, CGPA
