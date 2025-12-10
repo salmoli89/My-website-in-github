@@ -1,96 +1,36 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heer's Website 💻</title>
+    <title>Heer's Profile</title>
     <style>
-        /* Basic Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fce4ec;
             color: #333;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            padding: 50px;
         }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 30px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        h1 {
+            color: #e91e63;
         }
-
-        header h1 {
-            font-size: 2.5rem;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        main p {
+        p {
             font-size: 1.2rem;
-            margin-bottom: 20px;
         }
-
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: 0.3s;
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
         }
-
-        button:hover {
-            background-color: #45a049;
-            transform: scale(1.05);
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px;
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Heer's Website!</h1>
-    </header>
-
-    <main>
-        <p>Hello beb 😘! This is my first live website on GitHub Pages.</p>
-        <p>Explore and enjoy! 🎉</p>
-        <button onclick="alert('Yay! You clicked me!')">Click Me!</button>
-    </main>
-
-    <footer>
-        &copy; 2025 Heer. All rights reserved.
-    </footer>
+    <h1>Welcome to Heer's Profile! 😘</h1>
+    <p>Hello! This is my first live website on GitHub Pages.</p>
+    <p>Check out my <a href="https://github.com/salmoli89">GitHub Profile</a>!</p>
 </body>
 </html>
-
-
-
